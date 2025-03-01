@@ -36,7 +36,7 @@ class BankAccount:
         return f"{self.account_holder} balance:{self._balance}" 
 
 # Demonstration
-account = BankAccount("Alice", 1000, 1234)
+account = BankAccount("Anon", 1000, 1234)
 print(account.account_holder)  # Public
 print(account._balance)  # Protected
 # print(account.__pin)  # Private, commented out because the code will give error
